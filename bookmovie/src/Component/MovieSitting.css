@@ -1,0 +1,45 @@
+.theater-seating {
+  text-align: center;
+}
+
+.row {
+  margin-bottom: 10px;
+}
+
+.row-label {
+  margin-right: 5px;
+}
+
+.seat {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #ccc;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.seat.selected {
+  background-color: #3cba54;
+}
+
+.book-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.book-button:hover {
+  background-color: #0056b3;
+}
+
+.book-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
