@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useMemo } from "react";
-import "./MovieSitting.css"; // Import CSS for styling (see below)
+import "./MovieSitting.css";
 import BookingConfirmationPopup from "./PopUp";
 import "./PopUp.css";
 import { useNavigate } from "react-router-dom";
